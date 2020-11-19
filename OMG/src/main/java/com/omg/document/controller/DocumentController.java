@@ -3,7 +3,6 @@ package com.omg.document.controller;
 import java.io.IOException;
 import java.util.List;
 
-import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -11,22 +10,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.View;
 
 import com.google.gson.Gson;
 import com.omg.attachment.domain.AttachmentVO;
 import com.omg.attachment.service.AttachmentServiceImpl;
-import com.omg.board.domain.BoardVO;
 import com.omg.cmn.Message;
 import com.omg.cmn.StringUtil;
 import com.omg.document.domain.DocumentVO;
@@ -117,7 +110,7 @@ public class DocumentController {
 		List<AttachmentVO> fileList = attachmentServiceImpl.doSelectList(inFileVO);
 		LOG.debug("=fileList ="+fileList );
 		
-		empVO.setName(SeleteOne.getOkUser());
+		empVO.setEmployee_id(SeleteOne.getOkUser());
 		LOG.debug("empVO" + empVO);
 		EmployeeVO emp = documentService.doempIdSelete(empVO);
 		//EmployeeVO emp = employeeService.doSelectOne(empVO);
@@ -178,12 +171,12 @@ public class DocumentController {
 
 		empVO.setEmployee_id(SeleteOne.getOkUser());
 		LOG.debug("empVO" + empVO);
-		//empVO = documentService.doempIdSelete(empVO);
+		empVO = documentService.doempIdSelete(empVO);
 		LOG.debug("emp" + empVO);
 
 		model.addAttribute("fileList", fileList);
 		model.addAttribute("SeleteOne", SeleteOne);
-		//model.addAttribute("emp", empVO);
+		model.addAttribute("emp", empVO);
 
 		LOG.debug("SeleteOne" + SeleteOne);
 		
@@ -425,8 +418,8 @@ public class DocumentController {
 	
 	@RequestMapping(value = "document/doempNameget.do", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
 	@ResponseBody
-	public List<String> doempNameget(EmployeeVO employee) {
-		List<String> nameList = documentService.doempNameget(employee);
+	public String doempNameget(EmployeeVO employee) {
+		List<EmployeeVO> nameList = documentService.doempNameget(employee);
 		LOG.debug("nameList" + nameList);
 
 		Gson gson = new Gson();
@@ -435,7 +428,7 @@ public class DocumentController {
 		LOG.debug("=json=" + json);
 		LOG.debug("==================");
 
-		return nameList;
+		return json;
 
 	}
 
