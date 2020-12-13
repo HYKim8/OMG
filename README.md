@@ -16,11 +16,11 @@
 ### 5. 개발아키텍처 : MVC
 ![image](https://github.com/HYKim8/OMG/blob/main/Spring_MVC.png)
 ### 6. 개발목록
-![개발목록.xlsx](https://github.com/HYKim8/OMG/blob/main/%EA%B0%9C%EB%B0%9C%EB%AA%A9%EB%A1%9D.xlsx)
+[개발목록.xlsx](https://github.com/HYKim8/OMG/blob/main/%EA%B0%9C%EB%B0%9C%EB%AA%A9%EB%A1%9D.xlsx)
 ### 7. 단위테스트
 ![image](https://github.com/HYKim8/OMG/blob/main/%EB%8B%A8%EC%9C%84%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
 ### 8. 이행
-
+[프로젝트 ]
 ### 9. 개발URL
 
 ### 10. 참조
