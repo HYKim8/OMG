@@ -20,9 +20,9 @@
 ### 7. 단위테스트
 ![image](https://github.com/HYKim8/OMG/blob/main/%EB%8B%A8%EC%9C%84%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
 ### 8. 이행
-[프로젝트](https://github.com/HYKim8/OMG/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%9D%B4%ED%96%89.pptx)
-### 9. 개발URL
-
+[프로젝트 이행.pptx](https://github.com/HYKim8/OMG/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%9D%B4%ED%96%89.pptx)
+### 9. 개발기술
+![]()
 ### 10. 참조
 ``` 참조
 템플릿 : https://startbootstrap.com/theme/sb-admin-2
