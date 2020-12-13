@@ -8,24 +8,22 @@
 ```
 
 ### 3. 요구사항
-![](https://github.com/HYKim8/OMG/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20.PNG)  
+![image](https://github.com/HYKim8/OMG/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20.PNG)  
 
 ### 4. WBS  
-![](https://github.com/HYKim8/OMG/blob/main/wbs.jpg)
+![image](https://github.com/HYKim8/OMG/blob/main/wbs.jpg)
 
 ### 5. 개발아키텍처 : MVC
-![](https://github.com/HYKim8/OMG/blob/main/Spring_MVC.png)
+![image](https://github.com/HYKim8/OMG/blob/main/Spring_MVC.png)
 ### 6. 개발목록
-![](https://github.com/HYKim8/OMG/blob/main/%EA%B0%9C%EB%B0%9C%EB%AA%A9%EB%A1%9D.xlsx)
+![개발목록.xlsx](https://github.com/HYKim8/OMG/blob/main/%EA%B0%9C%EB%B0%9C%EB%AA%A9%EB%A1%9D.xlsx)
 ### 7. 단위테스트
-![](https://github.com/HYKim8/OMG/blob/main/%EB%8B%A8%EC%9C%84%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
-### 8. 통합테스트
+![image](https://github.com/HYKim8/OMG/blob/main/%EB%8B%A8%EC%9C%84%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
+### 8. 이행
 
-### 9. 이행
+### 9. 개발URL
 
-### 10. 개발URL
-
-### 11. 참조
+### 10. 참조
 ``` 참조
 템플릿 : https://startbootstrap.com/theme/sb-admin-2
 ```
