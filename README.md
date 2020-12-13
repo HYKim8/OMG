@@ -18,7 +18,7 @@
 ### 6. 개발목록
 
 ### 7. 단위테스트
-![](https://github.com/HYKim8/OMG/blob/main/Spring_MVC.png)
+![](https://github.com/HYKim8/OMG/blob/main/%EB%8B%A8%EC%9C%84%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
 ### 8. 통합테스트
 
 ### 9. 이행
