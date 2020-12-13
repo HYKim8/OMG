@@ -8,7 +8,7 @@
 ```
 
 ### 3. 요구사항
-![](https://github.com/HYKim8/OMG/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.jpg)  
+![](https://github.com/HYKim8/OMG/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20.PNG)  
 
 ### 4. WBS  
 ![](https://github.com/HYKim8/OMG/blob/main/wbs.jpg)
@@ -18,7 +18,7 @@
 ### 6. 개발목록
 
 ### 7. 단위테스트
-
+![](https://github.com/HYKim8/OMG/blob/main/Spring_MVC.png)
 ### 8. 통합테스트
 
 ### 9. 이행
