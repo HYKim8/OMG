@@ -1,10 +1,10 @@
 ### 1. 프로젝트명
     - 그룹웨어 
     
-### 2. 팀원/팀장
+### 2. 팀장/팀원
 ``` Team
- 조장: 최유비  
- 팀원: 박정민, 양광민, 이성현, 정기태, 정병운   
+ 팀장 : 최유비  
+ 팀원 : 박정민, 양광민, 이성현, 정기태, 정병운   
 ```
 
 ### 3. 요구사항
@@ -22,7 +22,7 @@
 ### 8. 이행
 [프로젝트 이행.pptx](https://github.com/HYKim8/OMG/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%9D%B4%ED%96%89.pptx)
 ### 9. 개발기술
-![]()
+![image](https://github.com/HYKim8/OMG/blob/main/%EA%B0%9C%EB%B0%9C%EA%B8%B0%EC%88%A0.PNG)
 ### 10. 참조
 ``` 참조
 템플릿 : https://startbootstrap.com/theme/sb-admin-2
